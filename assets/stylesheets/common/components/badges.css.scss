@@ -1,33 +1,31 @@
 @import "common/foundation/variables";
 @import "common/foundation/mixins";
-
+/*
 .badge-category,
 .badge-category-parent {
   i.fa {
-    line-height: 0; // ensure the icon doesn't increase the height of its inline container element (e.g. in the extra-info in topic page heading, or icons in hamburger header menu causing broken layout)
-
-    // SP custom rule
+    line-height: 0; 
+    
     &.fa-caret-right,
-    &.fa-caret-down { // drowdown in expanded state
-      font-size: 18px; // dropdown caret
+    &.fa-caret-down {
+      font-size: 18px;
       vertical-align: -2px;
     }
 
-    // SP custom rule
+    
     &.fa-group {
       font-size: 14px;
       vertical-align: -1px;
 
       &:before {
-        // content: $fa-var-lock; // restricted categories (lock icon \f023)
-        content: $fa-var-eye-slash; // restricted categories (eye-slash icon \f070)
+        content: $fa-var-eye-slash;
       }
     }
   }
 }
 
 .badge-category-parent {
-  display: none !important; // !important because of .category-links li:not(.heading) a { display: inline-block; } in base/header.scss
+  display: none !important;
 }
 
 .badge-category {
@@ -43,3 +41,4 @@
     color: white !important;
   }
 }
+*/
