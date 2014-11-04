@@ -27,12 +27,12 @@
   .icons {
     .icon {
       color: $gray-light-SP;
-      border: 1px solid transparent; // prevent "flash of rounded bottom corners" as dropdown is opening
-      transition: background-color 167ms ease-out; // align transition with dropdown menu fadein transition
+      border: 1px solid transparent; 
+      transition: background-color 167ms ease-out; 
 
       &:hover {
         background-color: transparent;
-        border: 1px solid transparent; // prevent "flash of rounded bottom corners" as dropdown is opening
+        border: 1px solid transparent; 
         color: #fff;
       }
 
@@ -41,11 +41,11 @@
       }
     }
 
-    .active .icon { // when e.g. hamburger dropdown menu is opened
-      border: 1px solid #fff; // prevent "flash of rounded bottom corners" as dropdown is opening
+    .active .icon { 
+      border: 1px solid #fff; 
 
       &:hover {
-        border: 1px solid #fff; // prevent "flash of rounded bottom corners" as dropdown is opening
+        border: 1px solid #fff; 
         color: $gray-sitepoint-header-bg-SP;
         background-color: #fff;
       }
@@ -61,7 +61,7 @@
   border-top-color: #fff;
 
   .user-dropdown-links .badge-notification {
-    margin-right: 5px; // ensure horizontal separation between unread messages count and the word Messages
+    margin-right: 5px; 
   }
 
 
@@ -71,7 +71,7 @@
     width: 50%;
 
     .badge-category {
-      min-width: 0; // keep min-width despite 2 col layout to achieve 1) easier visual identification of cats and b) more room for notifications
+      min-width: 0;
       text-align: left;
     }
   }
